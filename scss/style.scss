@@ -1,0 +1,31 @@
+.nav-header {
+  background-color: red;
+  height: 90px;
+  padding: 20px 20px;
+  color: white;
+
+  .row {
+    display: flex;
+    align-items: center;
+
+    .weather-date {
+      display: flex;
+      flex-direction: column;
+
+      .weather {
+        padding-bottom: 15px;
+      }
+    }
+
+    .right {
+      padding-left: 150px;
+      align-content: space-between;
+      text-decoration: none;
+
+      .right-span {
+        padding-right: 15px;
+      }
+    }
+  }
+
+}

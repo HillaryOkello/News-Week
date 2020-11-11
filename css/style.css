@@ -1,8 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
+.nav-header {
+  background-color: red;
+  height: 90px;
+  padding: 20px 20px;
+  color: white;
 }
-
-.container-fluid {
-  max-width: 1300px;
+.nav-header .row {
+  display: flex;
+  align-items: center;
+}
+.nav-header .row .weather-date {
+  display: flex;
+  flex-direction: column;
+}
+.nav-header .row .weather-date .weather {
+  padding-bottom: 15px;
+}
+.nav-header .row .right {
+  padding-left: 150px;
+  align-content: space-between;
+  text-decoration: none;
+}
+.nav-header .row .right .right-span {
+  padding-right: 15px;
 }
