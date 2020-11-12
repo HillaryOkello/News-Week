@@ -438,3 +438,12 @@ form button {
 .container-fluid footer .footer-2 ul li .bold {
   font-weight: 800;
 }
+
+@media screen and (min-width: 764px) and (max-width: 991px) {
+  .navbar,
+  .nav-2 {
+    display: none;
+  }
+
+  
+}
