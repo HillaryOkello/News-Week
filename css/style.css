@@ -439,11 +439,27 @@ form button {
   font-weight: 800;
 }
 
-@media screen and (min-width: 764px) and (max-width: 991px) {
+@media screen and (max-width: 768px) {
   .navbar,
-  .nav-2 {
+  .nav-2,
+  footer {
     display: none;
   }
 
-  
+  .nav-header .row .weather-date {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar,
+  .nav-2,
+  footer {
+    display: none;
+  }
+
+  .nav-header .row .weather-date {
+    display: none;
+  }
+
 }
