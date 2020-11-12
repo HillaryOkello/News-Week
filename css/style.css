@@ -369,3 +369,41 @@ form button {
 .container-fluid .second-section .second-section-2 .second-section-item .card .h32 a {
   color: black;
 }
+
+.container-fluid footer .footer-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+.container-fluid footer .footer-1 svg {
+  max-width: 15rem;
+  fill: red;
+}
+.container-fluid footer .footer-1 .svg-footer {
+  display: flex;
+  align-items: center;
+}
+.container-fluid footer .footer-1 .svg-footer .foot-para {
+  padding-top: 40px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.container-fluid footer .footer-1 .foot-icons i {
+  padding-right: 14px;
+}
+.container-fluid footer .footer-2 ul {
+  list-style-type: none;
+}
+.container-fluid footer .footer-2 ul li {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid lightgray;
+  font-size: 15px;
+}
+.container-fluid footer .footer-2 ul li a {
+  color: #636363;
+}
+.container-fluid footer .footer-2 ul li .bold {
+  font-weight: 800;
+}

@@ -450,3 +450,57 @@ form {
     }
   }
 }
+
+.container-fluid {
+  footer {
+    .footer-1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid lightgrey;
+
+      svg {
+        max-width: 15rem;
+        fill: red;
+      }
+
+      .svg-footer {
+        display: flex;
+        align-items: center;
+
+        .foot-para {
+          padding-top: 40px;
+          padding-left: 20px;
+          font-size: 14px;
+        }
+      }
+
+      .foot-icons {
+        i {
+          padding-right: 14px;
+        }
+      }
+    }
+
+    .footer-2 {
+      ul {
+        list-style-type: none;
+        
+        li {
+          padding-right: 10px;
+          padding-left: 10px;
+          border-right: 1px solid lightgray;
+          font-size: 15px;
+          
+
+          a {
+            color: rgb(99, 99, 99);
+          }
+          .bold {
+            font-weight: 800;
+          }
+        }
+      }
+    }
+  }
+}
