@@ -225,6 +225,138 @@
       color: #000;
       font-weight: 800;
     }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    p a {
+      font-weight: 700;
+      color: rgb(63, 60, 60);
+    }
+  }
+}
+
+.vs {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  background-color: #000;
+  border-radius: 100%;
+  width: 25%;
+  margin-left: 130px;
+}
+
+.second-debate{
+  margin-top: 20px;
+  border-bottom: 4px solid #aaa;
+}
+
+.opinion {
+  margin-top: 30px;
+
+  h3 a{
+    font-size: 1.2em;
+    color: #aaa;
+  }
+
+  .opinion-box {
+    img{
+      margin-right: 16px;
+      height: 100%;
+    }
+  }
+}
+
+.special-card {
+  border: 1px solid #aaa;
+  text-align: center;
+
+  .card-body {
+    padding-left: 15px;
+    font-size: large;
+
+    .card-title {
+      font-weight: 900;
+      font-size: 1.5em;
+    }
+  }
+}
+
+form {
+  max-width: 300px;
+  margin: 0px 30px 30px 10px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+
+  img {
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: center/contain no-repeat #f72210;
+    margin-right: 10px;
+  }
+
+  h4 {
+    font-size: 1em;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    color: white;
+    cursor: pointer;
+    font-weight: 900;
+    background-color: #f61602;
+    border-radius: 3px;
+    width: 100%;
+  }
+}
+
+.us {
+  border-top: 1px solid #aaa;
+  margin-top: 50px;
+  padding: 20px 0 20px 0;
+
+  h2 {
+    color: #f61602;
+  }
+
+  .card-body{
+    font-size: 1.3em;
+    color: #000;
+    font-weight: 600;
+  }
+
+  aside {
+    img{
+      width: 25%;
+    }
+
+    .d-flex {
+      margin-bottom: 30px;
+      border-bottom: 1px solid #aaa;
+      padding-bottom: 20px;
+      
+        &:last-child{
+          border-bottom: 0px;
+        }
+
+      h5 {
+        margin-left: 10px;
+        
+        a {
+          color: #000;
+        }
+      }
+    }
+
   }
 }
 
