@@ -1,6 +1,6 @@
 .nav-header {
   background-color: red;
-  height: 90px;
+  height: 100px;
   padding: 20px 20px;
   color: white;
 
@@ -14,6 +14,17 @@
 
       .weather {
         padding-bottom: 15px;
+        a {
+          color: #fff;
+          font-weight: 700;
+        }
+          &:hover{
+            text-decoration: none;
+          }
+      }
+
+      .date {
+        font-size: 1.2em;
       }
     }
 
@@ -28,4 +39,191 @@
     }
   }
 
+}
+
+#login {
+  margin-right: 10px;
+}
+
+#login,
+#subscribe-btn {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#subscribe-btn {
+  background-color: #ffe400;
+  border-radius: 99em;
+  padding: 1px 10px;
+  white-space: nowrap;
+  color: #000;
+}
+
+#hamburger {
+  font-size: 1em;
+  color: #fff;
+  margin-left: .5em;
+}
+
+.container-fluid {
+  max-width: 1380px;
+  padding: 0;
+}
+
+.nav-1 {
+  background-color: white;
+  border-bottom: 3px solid;
+  border-bottom-color: #f4f5f6;
+  position: relative;
+
+  .navbar-nav {
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  .nav-item {
+    border-right: 2px solid #d9d9d9;
+  }
+
+  .nav-link {
+    color: #000;
+  }
+}
+
+.nav-2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f4f5f6;
+
+  .nav-link {
+    color: #807f84;
+  }
+}
+
+.section-1 {
+  h3{
+  color: #999;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  }
+
+  a {
+    color: #000;
+  }
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+
+  .card-img-b-overlay {
+    position: relative;
+  }
+  
+  .card-img-b-overlay p {
+    position: absolute;
+    bottom: 0;
+    color: rgb(251, 32, 32);
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .card-body{
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .card-title {
+    font-size: 1.5em;
+    padding: 10px 0 5px 0;
+  }
+
+  .card-text {
+    font-size: 1.3em;
+  }
+
+  .image-name {
+    position: absolute;
+    bottom: 0;
+    color: rgb(251, 32, 32);
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 2em;
+    padding: 5px;
+  }
+}
+
+.turn-1 {
+  margin-top: 60px;
+
+  h2 {
+    font-size: 1.5em;
+    color: rgb(129, 124, 124);
+    font-weight: 500;
+  }
+
+  .turn h4 {
+    font-size: 1.3em;
+  }
+
+  .crd {
+    bottom: 0;
+    color: rgb(251, 32, 32);
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 1em;
+    padding: 5px;
+  }
+}
+
+.more-stories {
+  h2 {
+    font-size: 1.5em;
+    color: #817c7c;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px 0 10px 0;
+  }
+
+  .story {
+    padding: 10px 0 20px 0;
+    border-top: 1px solid #aaa;
+
+    .para{
+      font-size: 1.2em;
+    }
+  }
+
+  img {
+    padding: 5px 25px 0 5px;
+  }
+}
+
+.debate {
+  .debate-title {
+    border-bottom: 4px solid #aaa;
+    padding: 0 0 15px 0;
+  }
+
+  .content {
+    margin-left: 15px;
+    h3 {
+      font-size: 1.1em;
+      color: #000;
+      font-weight: 800;
+    }
+  }
 }

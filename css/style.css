@@ -1,6 +1,6 @@
 .nav-header {
   background-color: red;
-  height: 90px;
+  height: 100px;
   padding: 20px 20px;
   color: white;
 }
@@ -15,6 +15,16 @@
 .nav-header .row .weather-date .weather {
   padding-bottom: 15px;
 }
+.nav-header .row .weather-date .weather a {
+  color: #fff;
+  font-weight: 700;
+}
+.nav-header .row .weather-date .weather:hover {
+  text-decoration: none;
+}
+.nav-header .row .weather-date .date {
+  font-size: 1.2em;
+}
 .nav-header .row .right {
   padding-left: 150px;
   align-content: space-between;
@@ -22,4 +32,166 @@
 }
 .nav-header .row .right .right-span {
   padding-right: 15px;
+}
+
+#login {
+  margin-right: 10px;
+}
+
+#login,
+#subscribe-btn {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#subscribe-btn {
+  background-color: #ffe400;
+  border-radius: 99em;
+  padding: 1px 10px;
+  white-space: nowrap;
+  color: #000;
+}
+
+#hamburger {
+  font-size: 1em;
+  color: #fff;
+  margin-left: 0.5em;
+}
+
+.container-fluid {
+  max-width: 1380px;
+  padding: 0;
+}
+
+.nav-1 {
+  background-color: white;
+  border-bottom: 3px solid;
+  border-bottom-color: #f4f5f6;
+  position: relative;
+}
+.nav-1 .navbar-nav {
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 800;
+}
+.nav-1 .nav-item {
+  border-right: 2px solid #d9d9d9;
+}
+.nav-1 .nav-link {
+  color: #000;
+}
+
+.nav-2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f4f5f6;
+}
+.nav-2 .nav-link {
+  color: #807f84;
+}
+
+.section-1 h3 {
+  color: #999;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+}
+.section-1 a {
+  color: #000;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  width: 100%;
+}
+.card img {
+  width: 100%;
+}
+.card .card-img-b-overlay {
+  position: relative;
+}
+.card .card-img-b-overlay p {
+  position: absolute;
+  bottom: 0;
+  color: #fb2020;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.card .card-body {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+}
+.card .card-title {
+  font-size: 1.5em;
+  padding: 10px 0 5px 0;
+}
+.card .card-text {
+  font-size: 1.3em;
+}
+.card .image-name {
+  position: absolute;
+  bottom: 0;
+  color: #fb2020;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 2em;
+  padding: 5px;
+}
+
+.turn-1 {
+  margin-top: 60px;
+}
+.turn-1 h2 {
+  font-size: 1.5em;
+  color: #817c7c;
+  font-weight: 500;
+}
+.turn-1 .turn h4 {
+  font-size: 1.3em;
+}
+.turn-1 .crd {
+  bottom: 0;
+  color: #fb2020;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 1em;
+  padding: 5px;
+}
+
+.more-stories h2 {
+  font-size: 1.5em;
+  color: #817c7c;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 5px 0 10px 0;
+}
+.more-stories .story {
+  padding: 10px 0 20px 0;
+  border-top: 1px solid #aaa;
+}
+.more-stories .story .para {
+  font-size: 1.2em;
+}
+.more-stories img {
+  padding: 5px 25px 0 5px;
+}
+
+.debate .debate-title {
+  border-bottom: 4px solid #aaa;
+  padding: 0 0 15px 0;
+}
+.debate .content {
+  margin-left: 15px;
+}
+.debate .content h3 {
+  font-size: 1.1em;
+  color: #000;
+  font-weight: 800;
 }
