@@ -195,3 +195,67 @@
   color: #000;
   font-weight: 800;
 }
+
+.container-fluid .second-section {
+  width: 100%;
+}
+.container-fluid .second-section .header {
+  display: flex;
+  align-items: center;
+  padding: 0 0 10px 500px;
+  border-bottom: 1px solid lightgrey;
+}
+.container-fluid .second-section .header .logo-img {
+  width: 30px;
+  background-color: red;
+}
+.container-fluid .second-section .header .logo-name {
+  padding-top: 6px;
+  padding-left: 10px;
+  font-weight: 1000;
+  align-items: center;
+}
+
+.container-fluid .second-section .second-section-1 {
+  padding: 20px 0px;
+}
+.container-fluid .second-section .second-section-1 .second-section-item {
+  position: relative;
+}
+.container-fluid .second-section .second-section-1 .second-section-item .card .h31 {
+  position: absolute;
+  bottom: 39px;
+  background-color: lightgrey;
+  color: red;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.container-fluid .second-section .second-section-1 .second-section-item .card .h30 {
+  background-color: lightgrey;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 20px 0;
+}
+.container-fluid .second-section .second-section-1 .second-section-item .card .h30 a {
+  color: black;
+}
+
+.container-fluid .second-section .second-section-2 .second-section-item {
+  position: relative;
+}
+.container-fluid .second-section .second-section-2 .second-section-item .card .h31 {
+  position: absolute;
+  bottom: 100px;
+  background-color: lightgrey;
+  color: red;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.container-fluid .second-section .second-section-2 .second-section-item .card .h32 {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 20px 0;
+}
+.container-fluid .second-section .second-section-2 .second-section-item .card .h32 a {
+  color: black;
+}
