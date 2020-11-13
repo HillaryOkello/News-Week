@@ -299,7 +299,8 @@ form button {
   font-weight: 600;
 }
 .us aside img {
-  width: 25%;
+  width: 100%;
+  height: auto;
 }
 .us aside .d-flex {
   margin-bottom: 30px;
@@ -366,10 +367,10 @@ form button {
 }
 .container-fluid .second-section .second-section-2 .second-section-item .card .h31 {
   position: absolute;
-  bottom: 100px;
+  bottom: 120px;
   background-color: lightgrey;
   color: red;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bolder;
 }
 .container-fluid .second-section .second-section-2 .second-section-item .card .h32 {
@@ -475,6 +476,15 @@ form button {
   #login {
     display: none;
   }
+
+  .container-fluid .second-section .second-section-2 .second-section-item .card .h31 {
+    position: absolute;
+    bottom: 70px;
+    background-color: lightgrey;
+    color: red;
+    font-size: 17px;
+    font-weight: bolder;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -511,6 +521,15 @@ form button {
 
   .container-fluid {
     max-width: 760px;
+  }
+
+  .container-fluid .second-section .second-section-2 .second-section-item .card .h31 {
+    position: absolute;
+    bottom: 168px;
+    background-color: lightgrey;
+    color: red;
+    font-size: 17px;
+    font-weight: bolder;
   }
 
 }
