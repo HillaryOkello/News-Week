@@ -40,7 +40,7 @@
 
 #login,
 #subscribe-btn {
-  font-size: 0.8em;
+  font-size: 1.2em;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -60,7 +60,7 @@
 }
 
 .container-fluid {
-  max-width: 1380px;
+  max-width: 1280px;
   padding: 0;
 }
 
@@ -102,6 +102,10 @@
   color: #000;
 }
 
+.special-card .card {
+  width: 100%;
+}
+
 .card {
   border: none;
   border-radius: 0;
@@ -127,11 +131,11 @@
   padding-left: 0;
 }
 .card .card-title {
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 10px 0 5px 0;
 }
 .card .card-text {
-  font-size: 1.3em;
+  font-size: 0.9em;
 }
 .card .image-name {
   position: absolute;
@@ -148,12 +152,12 @@
   margin-top: 60px;
 }
 .turn-1 h2 {
-  font-size: 1.5em;
+  font-size: 1em;
   color: #817c7c;
   font-weight: 500;
 }
 .turn-1 .turn h4 {
-  font-size: 1.3em;
+  font-size: 0.9em;
 }
 .turn-1 .crd {
   bottom: 0;
@@ -166,7 +170,7 @@
 }
 
 .more-stories h2 {
-  font-size: 1.5em;
+  font-size: 1em;
   color: #817c7c;
   font-weight: 500;
   text-transform: uppercase;
@@ -177,7 +181,7 @@
   border-top: 1px solid #aaa;
 }
 .more-stories .story .para {
-  font-size: 1.2em;
+  font-size: 0.9em;
 }
 .more-stories img {
   padding: 5px 25px 0 5px;
@@ -227,6 +231,12 @@
   font-size: 1.2em;
   color: #aaa;
 }
+
+.opinion-box {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 20px;
+}
+
 .opinion .opinion-box img {
   margin-right: 16px;
   height: 100%;
@@ -446,7 +456,22 @@ form button {
     display: none;
   }
 
+  .nav-header {
+    height: 50px;
+    align-items: center;
+    padding: 0;
+  }
+
   .nav-header .row .weather-date {
+    display: none;
+  }
+
+  .title svg {
+    font-size: 3em;
+    width: 50%;
+  }
+
+  #login {
     display: none;
   }
 }
@@ -458,8 +483,33 @@ form button {
     display: none;
   }
 
+  .nav-header {
+    height: 50px;
+    align-items: center;
+    padding: 0;
+  }
+
   .nav-header .row .weather-date {
     display: none;
+  }
+
+  .title svg {
+    font-size: 3em;
+    width: 50%;
+  }
+
+  .second-debate {
+    justify-content: flex-end;
+  }
+
+  .mid-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-fluid {
+    max-width: 760px;
   }
 
 }
