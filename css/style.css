@@ -316,24 +316,25 @@ form button {
   color: #000;
 }
 
-.container-fluid .second-section {
-  width: 100%;
+.second-section .logo-img {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: center/contain no-repeat #f72210;
+  margin-right: 10px;
 }
-.container-fluid .second-section .header {
+
+.second-section .header {
   display: flex;
-  align-items: center;
-  padding: 0 0 10px 500px;
-  border-bottom: 1px solid lightgrey;
+  justify-content: center;
+  border-bottom: 1px solid #aaa;
+  margin: 10px 0 20px 0;
+  padding: 5px;
 }
-.container-fluid .second-section .header .logo-img {
-  width: 30px;
-  background-color: red;
-}
-.container-fluid .second-section .header .logo-name {
-  padding-top: 6px;
-  padding-left: 10px;
-  font-weight: 1000;
-  align-items: center;
+
+ .container-fluid .second-section {
+  width: 100%;
 }
 
 .container-fluid .second-section .second-section-1 {
@@ -378,7 +379,7 @@ form button {
 }
 .container-fluid .second-section .second-section-2 .second-section-item .card .h32 a {
   color: black;
-}
+} 
 
 .subscribe h2 {
   color: #f72210;
