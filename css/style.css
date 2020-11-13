@@ -465,6 +465,11 @@ form button {
   color: black;
 }
 
+.new-sub {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .subscribe h2 {
   color: #f72210;
   font-size: 1.3em;
